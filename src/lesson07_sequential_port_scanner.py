@@ -1,5 +1,5 @@
 # SuperFastPython.com
-# scan a range of port numbers on host one by one,
+# scan a range of port numbers on host one by one
 from socket import AF_INET
 from socket import SOCK_STREAM
 from socket import socket

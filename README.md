@@ -28,7 +28,7 @@ You can learn more about the book here:
 >
 > This is not some random third-party library, this is a class provided in the Python standard library (already installed on your system).
 >
-> This is the class you need to use to make your code run faster.
+> This is the class you need to make your code run faster.
 >
 > There's just one problem. No one knows about it (or how to use it well).
 >

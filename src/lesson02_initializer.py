@@ -11,14 +11,14 @@ def task():
     sleep(1)
 
 # initialize a worker in the thread pool
-def initialize_worker():
+def init():
     # report a message
     print('Initializing worker...')
 
 # protect the entry point
 if __name__ == '__main__':
     # create and configure the thread pool
-    with ThreadPool(2, initializer=initialize_worker) as pool:
+    with ThreadPool(2, initializer=init) as pool:
         # issue tasks to the thread pool
         for _ in range(4):
             pool.apply_async(task)
